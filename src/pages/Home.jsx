@@ -3,7 +3,7 @@ import axios from "axios";
 import MovieCard from "../components/MovieCard";
 import MovieDetails from "../components/MovieDetails";
 
-const API_URL = "http://www.omdbapi.com/?apikey=9d67ccb8"; // Correct API URL
+const API_URL = "https://www.omdbapi.com/?apikey=9d67ccb8"; // Correct API URL
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
